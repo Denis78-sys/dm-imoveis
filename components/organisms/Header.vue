@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="header flex justify-between items-center">
+    <div class="header pb-4 pt-4 flex justify-between items-center">
         <Logo />
         <Menu />
     </div>
