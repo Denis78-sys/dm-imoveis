@@ -2,10 +2,12 @@
     <div>
         <Header />
         <Capa />
+       <Carrossel />
     </div>
 </template>
 
 <script>
+
 export default {
     setup () {
         
