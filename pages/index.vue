@@ -2,10 +2,9 @@
   <div>
     <Header />
     <Capa />
-    <div class="flex space-x-12">
-      <Vantagens />
-      <Carrossel />
-    </div>
+
+    <Vantagens />
+    <Carrossel />
   </div>
 </template>
 

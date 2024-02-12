@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="carrossel w-6/12">
+  <div class="carrossel">
     <section class="slider">
       <div class="slider-content">
         <input id="radio1" type="radio" name="btn-radio" />
@@ -25,20 +25,21 @@
             alt="Foto 03"
           />
         </div>
-
-        <div class="nav-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-        </div>
-
-        <div class="nav-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-        </div>
       </div>
     </section>
+
+    <!-- Bolinhas -->
+    <div class="nav-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+    </div>
+
+    <div class="nav-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+    </div>
   </div>
 </template>
 
@@ -64,18 +65,24 @@ export default {
 
       document.getElementById(`radio${cont}`).checked = true;
     }
-  }
+  },
 };
 </script>
 
 <style scoped>
 /* Estilos do carrossel */
+.carrossel {
+  position: relative;
+  width: 100%;
+}
+
 .slider {
   margin: 0 auto;
   width: 100%;
   height: auto;
   padding: 0;
   overflow: hidden; /* Esconde a rolagem */
+  position: relative;
 }
 
 .slider-content {
@@ -101,36 +108,37 @@ export default {
 }
 
 /* Estilos das bolinhas */
-.nav-manual,
-.nav-auto {
-  display: flex;
+.nav-auto,
+.nav-manual {
   position: absolute;
-  margin-left: 23%;
-  width: 50%; /* Reduzindo a largura para alinhar com o carrossel */
-  margin-top: 28%; /* Ajustar */
+  bottom: 10px; /* Posição na parte inferior */
+  left: 50%; /* Alinhar ao centro horizontalmente */
+  transform: translateX(-50%); /* Ajuste fino do alinhamento horizontal */
+  display: flex;
 }
 
-.nav-manual .manual-btn,
-.nav-auto div {
+.nav-auto div,
+.nav-manual label {
   border: 1px solid white;
-  padding: 5px; /* Reduzindo o padding */
+  padding: 5px;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.2s;
 }
 
-.nav-manual .manual-btn:not(:last-child),
-.nav-auto div:not(:last-child) {
-  margin-right: 5px; /* Reduzindo a margem */
+.nav-auto div:not(:last-child),
+.nav-manual label:not(:last-child) {
+  margin-right: 5px;
 }
 
-.nav-manual .manual-btn:hover {
+.nav-auto div:hover,
+.nav-manual label:hover {
   background-color: #515051;
 }
 
-#radio1:checked ~ .nav-manual .manual-btn:nth-child(1),
-#radio2:checked ~ .nav-manual .manual-btn:nth-child(2),
-#radio3:checked ~ .nav-manual .manual-btn:nth-child(3) {
+#radio1:checked ~ .nav-manual label:nth-child(1),
+#radio2:checked ~ .nav-manual label:nth-child(2),
+#radio3:checked ~ .nav-manual label:nth-child(3) {
   background-color: #515051;
 }
 
