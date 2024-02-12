@@ -144,13 +144,16 @@ export default {
 
 #radio1:checked ~ .primeiro {
   margin-left: 0%;
+  background-color: #515051;
 }
 
 #radio2:checked ~ .primeiro {
   margin-left: -25%;
+  background-color: #515051;
 }
 
 #radio3:checked ~ .primeiro {
   margin-left: -50%;
+  background-color: #515051;
 }
 </style>
