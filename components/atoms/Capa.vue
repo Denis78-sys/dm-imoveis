@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <div class="capa">
-         <img class="w-full" :src="require('@/assets/images/capa5.jpg')" alt="Capa">
+    <div class="capa lg:h-96 md:h-80 sm:h-64 overflow-hidden">
+         <img class="w-full h-full object-cover" :src="require('@/assets/images/capa6.jpg')" alt="Capa">
     </div>
 </template>
 
