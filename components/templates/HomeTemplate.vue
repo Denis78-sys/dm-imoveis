@@ -1,5 +1,10 @@
 <template>
-  <HomeTemplate />
+  <div class="home-template">
+    <Header />
+    <Capa />
+    <Main />
+    <Contato />
+  </div>
 </template>
 
 <script>

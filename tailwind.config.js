@@ -6,7 +6,14 @@ module.exports = {
   'plugins/**/*.js',
   'nuxt.config.js',],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        cinzaEscuro: '#373c40',
+        marron: '#87765f',
+        marromHover: '#5a4f3f',
+        cinza: '#bfbfbf',
+      },
+    },
     screens:{
       'sm': '360px',
       'md': '768px',
