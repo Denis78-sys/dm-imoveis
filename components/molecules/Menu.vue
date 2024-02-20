@@ -2,10 +2,10 @@
 <template>
     <div class="menu">
         <nav class="md:block sm:hidden">
-            <ul class="flex space-x-20">
-                <li><a href="#inicio">Home</a></li>
-                <li><a href="#comentarios">Comentários</a></li>
-                <li><a href="#contato">Entre em contato</a></li>
+            <ul class="flex space-x-6 md:space-x-20">
+                <li><a href="#inicio" class="text-sm md:text-base">Home</a></li>
+                <li><a href="#comentarios" class="text-sm md:text-base">Comentários</a></li>
+                <li><a href="#contato" class="text-sm md:text-base">Entre em contato</a></li>
             </ul>           
         </nav>
         
