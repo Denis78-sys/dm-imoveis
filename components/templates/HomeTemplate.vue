@@ -1,9 +1,9 @@
 <template>
   <div class="home-template">
     <Header />
-    <Capa />
-    <Main />
-    <Contato />
+    <Capa id="inicio"/>
+    <Main id="comentarios"/>
+    <Contato id="contato"/>
     <Footer />
   </div>
 </template>

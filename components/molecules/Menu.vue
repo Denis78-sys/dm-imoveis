@@ -3,8 +3,9 @@
     <div class="menu">
         <nav class="md:block sm:hidden">
             <ul class="flex space-x-20">
-                <li><NuxtLink to="/">Home</NuxtLink></li>
-                <li><NuxtLink to="/contato">Contato</NuxtLink></li>
+                <li><a href="#inicio">Home</a></li>
+                <li><a href="#comentarios">Comentários</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>           
         </nav>
         
