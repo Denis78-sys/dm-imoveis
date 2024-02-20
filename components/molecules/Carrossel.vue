@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="carrossel">
+  <div class="carrossel z-10">
     <section class="slider">
       <div class="slider-content">
         <input id="radio1" type="radio" name="btn-radio" />

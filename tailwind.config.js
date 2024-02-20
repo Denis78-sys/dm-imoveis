@@ -12,6 +12,8 @@ module.exports = {
         marron: '#87765f',
         marromHover: '#5a4f3f',
         cinza: '#bfbfbf',
+        fundoFooter: '#373C40',
+        textoFooter: '#BFBFBF'
       },
     },
     screens:{

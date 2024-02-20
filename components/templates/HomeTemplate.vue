@@ -4,6 +4,7 @@
     <Capa />
     <Main />
     <Contato />
+    <Footer />
   </div>
 </template>
 

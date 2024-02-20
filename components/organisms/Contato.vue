@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="contato flex justify-center">
+  <div class="contato flex justify-center mb-8">
     <Container>
       <div class="flex md:flex-row sm:flex-col md:space-x-12 md:space-y-0 sm:space-x-0 sm:space-y-8">
         <Imagem />
