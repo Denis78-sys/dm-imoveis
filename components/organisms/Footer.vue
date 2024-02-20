@@ -5,7 +5,7 @@
       <div class="flex justify-center">
         <Container>
           <span class="text-textoFooter md:text-sm sm:text-xs"
-            >Desenvolvido por <strong><a href="">Denis Marques</a></strong> - Página
+            >Desenvolvido por <strong><a href="https://github.com/Denis78-sys?tab=repositories" target="_blank">Denis Marques</a></strong> - Página
             ilustrativa, usada apenas para estudo</span
           >
         </Container>
