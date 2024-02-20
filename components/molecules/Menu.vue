@@ -5,7 +5,7 @@
             <ul class="flex space-x-20">
                 <li><a href="#inicio">Home</a></li>
                 <li><a href="#comentarios">Comentários</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#contato">Entre em contato</a></li>
             </ul>           
         </nav>
         
